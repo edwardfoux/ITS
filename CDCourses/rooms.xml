@@ -1,0 +1,13 @@
+[{ "Building": "THH", "RoomNumber": "201", "InstructorTable":"1","InstructorChair":"1","studentTable":"15","studentChair":"60","comments":""},
+{ "Building": "THH", "RoomNumber": "202", "InstructorTable":"1","InstructorChair":"1","studentTable":"20","studentChair":"80","comments":""},
+{ "Building": "THH", "RoomNumber": "203", "InstructorTable":"1","InstructorChair":"1","studentTable":"0","studentChair":"40","comments":""},
+{ "Building": "THH", "RoomNumber": "204", "InstructorTable":"1","InstructorChair":"1","studentTable":"0","studentChair":"55","comments":""},
+
+{ "Building": "WPH", "RoomNumber": "101", "InstructorTable":"1","InstructorChair":"1","studentTable":"15","studentChair":"60","comments":""},
+{ "Building": "WPH", "RoomNumber": "102", "InstructorTable":"1","InstructorChair":"1","studentTable":"20","studentChair":"80","comments":""},
+{ "Building": "WPH", "RoomNumber": "103", "InstructorTable":"1","InstructorChair":"1","studentTable":"0","studentChair":"40","comments":""},
+{ "Building": "WPH", "RoomNumber": "104", "InstructorTable":"1","InstructorChair":"1","studentTable":"0","studentChair":"55","comments":""}
+
+
+
+]

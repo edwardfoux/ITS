@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B6271101856A46100C42F32 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B62710F1856A46100C42F32 /* MessageUI.framework */; };
+		2B6271191857F24A00C42F32 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6271181857F24A00C42F32 /* Room.m */; };
+		2B62711B185AFBB600C42F32 /* Screen Shot 2013-11-18 at 11.35.42 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B62711A185AFBB600C42F32 /* Screen Shot 2013-11-18 at 11.35.42 AM.png */; };
+		2B62711D185AFCD200C42F32 /* Screen Shot 2013-12-13 at 12.28.25 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B62711C185AFCD200C42F32 /* Screen Shot 2013-12-13 at 12.28.25 AM.png */; };
+		2B62711F185AFEB900C42F32 /* USC logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B62711E185AFEB900C42F32 /* USC logo.png */; };
+		2B77FFE4185B9901009ED7AC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B77FFE3185B9901009ED7AC /* Icon.png */; };
+		2B77FFE6185B991B009ED7AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B77FFE5185B991B009ED7AC /* Images.xcassets */; };
+		2B77FFE8185B9C6D009ED7AC /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B77FFE7185B9C6D009ED7AC /* Images-2.xcassets */; };
+		2B77FFEC185B9FF6009ED7AC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B77FFEB185B9FF6009ED7AC /* Default-568h@2x.png */; };
+		562BE68118565D2800A0B1D7 /* EFGlobalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 562BE68018565D2800A0B1D7 /* EFGlobalData.m */; };
+		562BE68518565F7000A0B1D7 /* rooms.xml in Resources */ = {isa = PBXBuildFile; fileRef = 562BE68418565F7000A0B1D7 /* rooms.xml */; };
+		562BE68B1856640D00A0B1D7 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 562BE68A1856640D00A0B1D7 /* libxml2.2.dylib */; };
+		562BE68D1856642600A0B1D7 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 562BE68C1856642600A0B1D7 /* libxml2.dylib */; };
+		566E2D62184FCA2000E9C86C /* EFHomeScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566E2D61184FCA2000E9C86C /* EFHomeScreenController.m */; };
+		6C51ADD115FD69F7001977CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C51ADD015FD69F7001977CA /* UIKit.framework */; };
+		6C51ADD315FD69F7001977CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C51ADD215FD69F7001977CA /* Foundation.framework */; };
+		6C51ADD515FD69F7001977CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C51ADD415FD69F7001977CA /* CoreGraphics.framework */; };
+		6C51ADD715FD69F7001977CA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C51ADD615FD69F7001977CA /* CoreData.framework */; };
+		6C51ADDD15FD69F7001977CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C51ADDB15FD69F7001977CA /* InfoPlist.strings */; };
+		6C51ADDF15FD69F7001977CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C51ADDE15FD69F7001977CA /* main.m */; };
+		6C51ADE315FD69F7001977CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C51ADE215FD69F7001977CA /* AppDelegate.m */; };
+		6C51ADF015FD6AB6001977CA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C51ADEF15FD6AB6001977CA /* MainStoryboard.storyboard */; };
+		6C51ADF315FD6B8D001977CA /* EFRoomsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C51ADF215FD6B8D001977CA /* EFRoomsTableViewController.m */; };
+		6C51AE0A15FD81FF001977CA /* EFAddRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C51AE0915FD81FF001977CA /* EFAddRoomViewController.m */; };
+		6C6F544B15FD950F0071480D /* EFDisplayEditRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F544A15FD950F0071480D /* EFDisplayEditRoomViewController.m */; };
+		A6B9A6371843DF86006E8F1A /* RoomsData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6B9A6351843DF86006E8F1A /* RoomsData.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B62710F1856A46100C42F32 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		2B6271171857F24A00C42F32 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		2B6271181857F24A00C42F32 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		2B62711A185AFBB600C42F32 /* Screen Shot 2013-11-18 at 11.35.42 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2013-11-18 at 11.35.42 AM.png"; sourceTree = "<group>"; };
+		2B62711C185AFCD200C42F32 /* Screen Shot 2013-12-13 at 12.28.25 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2013-12-13 at 12.28.25 AM.png"; sourceTree = "<group>"; };
+		2B62711E185AFEB900C42F32 /* USC logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "USC logo.png"; sourceTree = "<group>"; };
+		2B77FFE3185B9901009ED7AC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2B77FFE5185B991B009ED7AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2B77FFE7185B9C6D009ED7AC /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		2B77FFEB185B9FF6009ED7AC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		562BE67F18565D2800A0B1D7 /* EFGlobalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFGlobalData.h; sourceTree = "<group>"; };
+		562BE68018565D2800A0B1D7 /* EFGlobalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFGlobalData.m; sourceTree = "<group>"; };
+		562BE68418565F7000A0B1D7 /* rooms.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = rooms.xml; sourceTree = "<group>"; };
+		562BE689185663AF00A0B1D7 /* GDataXMLNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = CDCourses/GDataXMLNode.m; sourceTree = "<group>"; };
+		562BE68A1856640D00A0B1D7 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		562BE68C1856642600A0B1D7 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		566E2D60184FCA2000E9C86C /* EFHomeScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFHomeScreenController.h; sourceTree = "<group>"; };
+		566E2D61184FCA2000E9C86C /* EFHomeScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFHomeScreenController.m; sourceTree = "<group>"; };
+		6C51ADCC15FD69F7001977CA /* EFFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EFFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C51ADD015FD69F7001977CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6C51ADD215FD69F7001977CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C51ADD415FD69F7001977CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6C51ADD615FD69F7001977CA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6C51ADDA15FD69F7001977CA /* EFFinalProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EFFinalProject-Info.plist"; sourceTree = "<group>"; };
+		6C51ADDC15FD69F7001977CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C51ADDE15FD69F7001977CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C51ADE015FD69F7001977CA /* CDCourse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CDCourse-Prefix.pch"; sourceTree = "<group>"; };
+		6C51ADE115FD69F7001977CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C51ADE215FD69F7001977CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C51ADEF15FD6AB6001977CA /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6C51ADF115FD6B8D001977CA /* EFRoomsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFRoomsTableViewController.h; sourceTree = "<group>"; };
+		6C51ADF215FD6B8D001977CA /* EFRoomsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFRoomsTableViewController.m; sourceTree = "<group>"; };
+		6C51AE0815FD81FF001977CA /* EFAddRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFAddRoomViewController.h; sourceTree = "<group>"; };
+		6C51AE0915FD81FF001977CA /* EFAddRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFAddRoomViewController.m; sourceTree = "<group>"; };
+		6C6F544915FD950F0071480D /* EFDisplayEditRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFDisplayEditRoomViewController.h; sourceTree = "<group>"; };
+		6C6F544A15FD950F0071480D /* EFDisplayEditRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFDisplayEditRoomViewController.m; sourceTree = "<group>"; };
+		A6B9A6361843DF86006E8F1A /* RoomsData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RoomsData.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C51ADC915FD69F7001977CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6271101856A46100C42F32 /* MessageUI.framework in Frameworks */,
+				562BE68D1856642600A0B1D7 /* libxml2.dylib in Frameworks */,
+				562BE68B1856640D00A0B1D7 /* libxml2.2.dylib in Frameworks */,
+				6C51ADD115FD69F7001977CA /* UIKit.framework in Frameworks */,
+				6C51ADD315FD69F7001977CA /* Foundation.framework in Frameworks */,
+				6C51ADD515FD69F7001977CA /* CoreGraphics.framework in Frameworks */,
+				6C51ADD715FD69F7001977CA /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B627120185B03A400C42F32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B62711E185AFEB900C42F32 /* USC logo.png */,
+				2B62711C185AFCD200C42F32 /* Screen Shot 2013-12-13 at 12.28.25 AM.png */,
+				2B62711A185AFBB600C42F32 /* Screen Shot 2013-11-18 at 11.35.42 AM.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6C51ADC115FD69F7001977CA = {
+			isa = PBXGroup;
+			children = (
+				2B77FFEB185B9FF6009ED7AC /* Default-568h@2x.png */,
+				562BE689185663AF00A0B1D7 /* GDataXMLNode.m */,
+				6C51ADD815FD69F7001977CA /* CDCourses */,
+				6C51ADCF15FD69F7001977CA /* Frameworks */,
+				6C51ADCD15FD69F7001977CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C51ADCD15FD69F7001977CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C51ADCC15FD69F7001977CA /* EFFinalProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C51ADCF15FD69F7001977CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B62710F1856A46100C42F32 /* MessageUI.framework */,
+				562BE68C1856642600A0B1D7 /* libxml2.dylib */,
+				562BE68A1856640D00A0B1D7 /* libxml2.2.dylib */,
+				6C51ADD015FD69F7001977CA /* UIKit.framework */,
+				6C51ADD215FD69F7001977CA /* Foundation.framework */,
+				6C51ADD415FD69F7001977CA /* CoreGraphics.framework */,
+				6C51ADD615FD69F7001977CA /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C51ADD815FD69F7001977CA /* CDCourses */ = {
+			isa = PBXGroup;
+			children = (
+				2B627120185B03A400C42F32 /* Resources */,
+				6C51ADE115FD69F7001977CA /* AppDelegate.h */,
+				6C51ADE215FD69F7001977CA /* AppDelegate.m */,
+				562BE67F18565D2800A0B1D7 /* EFGlobalData.h */,
+				562BE68018565D2800A0B1D7 /* EFGlobalData.m */,
+				A6B9A6351843DF86006E8F1A /* RoomsData.xcdatamodeld */,
+				2B6271171857F24A00C42F32 /* Room.h */,
+				2B6271181857F24A00C42F32 /* Room.m */,
+				6C51ADEF15FD6AB6001977CA /* MainStoryboard.storyboard */,
+				6C6F544915FD950F0071480D /* EFDisplayEditRoomViewController.h */,
+				6C6F544A15FD950F0071480D /* EFDisplayEditRoomViewController.m */,
+				6C51AE0815FD81FF001977CA /* EFAddRoomViewController.h */,
+				6C51AE0915FD81FF001977CA /* EFAddRoomViewController.m */,
+				566E2D60184FCA2000E9C86C /* EFHomeScreenController.h */,
+				566E2D61184FCA2000E9C86C /* EFHomeScreenController.m */,
+				6C51ADF115FD6B8D001977CA /* EFRoomsTableViewController.h */,
+				6C51ADF215FD6B8D001977CA /* EFRoomsTableViewController.m */,
+				6C51ADD915FD69F7001977CA /* Supporting Files */,
+				562BE68418565F7000A0B1D7 /* rooms.xml */,
+				2B77FFE5185B991B009ED7AC /* Images.xcassets */,
+				2B77FFE7185B9C6D009ED7AC /* Images-2.xcassets */,
+			);
+			path = CDCourses;
+			sourceTree = "<group>";
+		};
+		6C51ADD915FD69F7001977CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B77FFE3185B9901009ED7AC /* Icon.png */,
+				6C51ADDA15FD69F7001977CA /* EFFinalProject-Info.plist */,
+				6C51ADDB15FD69F7001977CA /* InfoPlist.strings */,
+				6C51ADDE15FD69F7001977CA /* main.m */,
+				6C51ADE015FD69F7001977CA /* CDCourse-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C51ADCB15FD69F7001977CA /* EFFinalProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C51ADE915FD69F7001977CA /* Build configuration list for PBXNativeTarget "EFFinalProject" */;
+			buildPhases = (
+				6C51ADC815FD69F7001977CA /* Sources */,
+				6C51ADC915FD69F7001977CA /* Frameworks */,
+				6C51ADCA15FD69F7001977CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EFFinalProject;
+			productName = CDCourses;
+			productReference = 6C51ADCC15FD69F7001977CA /* EFFinalProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C51ADC315FD69F7001977CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Edward Fuks";
+				TargetAttributes = {
+					6C51ADCB15FD69F7001977CA = {
+						DevelopmentTeam = 7FX28RKSGV;
+					};
+				};
+			};
+			buildConfigurationList = 6C51ADC615FD69F7001977CA /* Build configuration list for PBXProject "EFFinalProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C51ADC115FD69F7001977CA;
+			productRefGroup = 6C51ADCD15FD69F7001977CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C51ADCB15FD69F7001977CA /* EFFinalProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C51ADCA15FD69F7001977CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B77FFE8185B9C6D009ED7AC /* Images-2.xcassets in Resources */,
+				2B62711B185AFBB600C42F32 /* Screen Shot 2013-11-18 at 11.35.42 AM.png in Resources */,
+				2B77FFE6185B991B009ED7AC /* Images.xcassets in Resources */,
+				2B77FFEC185B9FF6009ED7AC /* Default-568h@2x.png in Resources */,
+				562BE68518565F7000A0B1D7 /* rooms.xml in Resources */,
+				2B77FFE4185B9901009ED7AC /* Icon.png in Resources */,
+				6C51ADDD15FD69F7001977CA /* InfoPlist.strings in Resources */,
+				2B62711D185AFCD200C42F32 /* Screen Shot 2013-12-13 at 12.28.25 AM.png in Resources */,
+				6C51ADF015FD6AB6001977CA /* MainStoryboard.storyboard in Resources */,
+				2B62711F185AFEB900C42F32 /* USC logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C51ADC815FD69F7001977CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562BE68118565D2800A0B1D7 /* EFGlobalData.m in Sources */,
+				6C51ADDF15FD69F7001977CA /* main.m in Sources */,
+				6C51ADE315FD69F7001977CA /* AppDelegate.m in Sources */,
+				2B6271191857F24A00C42F32 /* Room.m in Sources */,
+				6C51ADF315FD6B8D001977CA /* EFRoomsTableViewController.m in Sources */,
+				566E2D62184FCA2000E9C86C /* EFHomeScreenController.m in Sources */,
+				6C51AE0A15FD81FF001977CA /* EFAddRoomViewController.m in Sources */,
+				6C6F544B15FD950F0071480D /* EFDisplayEditRoomViewController.m in Sources */,
+				A6B9A6371843DF86006E8F1A /* RoomsData.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C51ADDB15FD69F7001977CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C51ADDC15FD69F7001977CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C51ADE715FD69F7001977CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C51ADE815FD69F7001977CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C51ADEA15FD69F7001977CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDCourses/EFFinalProject-Prefix.pch";
+				INFOPLIST_FILE = "CDCourses/EFFinalProject-Info.plist";
+				PRODUCT_NAME = EFFinalProject;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6C51ADEB15FD69F7001977CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDCourses/EFFinalProject-Prefix.pch";
+				INFOPLIST_FILE = "CDCourses/EFFinalProject-Info.plist";
+				PRODUCT_NAME = EFFinalProject;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C51ADC615FD69F7001977CA /* Build configuration list for PBXProject "EFFinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C51ADE715FD69F7001977CA /* Debug */,
+				6C51ADE815FD69F7001977CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C51ADE915FD69F7001977CA /* Build configuration list for PBXNativeTarget "EFFinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C51ADEA15FD69F7001977CA /* Debug */,
+				6C51ADEB15FD69F7001977CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A6B9A6351843DF86006E8F1A /* RoomsData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A6B9A6361843DF86006E8F1A /* RoomsData.xcdatamodel */,
+			);
+			currentVersion = A6B9A6361843DF86006E8F1A /* RoomsData.xcdatamodel */;
+			path = RoomsData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6C51ADC315FD69F7001977CA /* Project object */;
+}
